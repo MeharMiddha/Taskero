@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTodos } from "../composables/useTodos";
+import { useTodos } from "@/composables/useTodos";
 
 const { list, handleAddItem } = useTodos();
 </script>

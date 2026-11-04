@@ -2,7 +2,7 @@ import { createRouter, createWebHistory, type RouteRecordRaw } from "vue-router"
 import LoginView from "@/views/LoginView.vue";
 import SignUpView from "@/views/SignUpView.vue";
 import HomeView from "@/views/HomeView.vue";
-import TodoPage from "@/components/TodoPage.vue";
+import TodosView from "@/views/TodosView.vue";
 
 const routes: Array<RouteRecordRaw> = [
     {
@@ -13,7 +13,7 @@ const routes: Array<RouteRecordRaw> = [
     {
         path: '/todos',
         name: 'Todos',
-        component: TodoPage
+        component: TodosView
     },
     {
         path: '/login',

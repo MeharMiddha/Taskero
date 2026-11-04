@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useTodos } from "../composables/useTodos";
+import { useTodos } from "@/composables/useTodos";
 import { Trash2, Pencil, Check } from "lucide-vue-next";
 
 const { listItems, handleDeleteItem, toggleEditMode } = useTodos();

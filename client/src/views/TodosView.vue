@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import TodoInput from "./TodoInput.vue";
-import TodoList from "./TodoList.vue";
+import TodoInput from "@/components/todo/TodoInput.vue";
+import TodoList from "@/components/todo/TodoList.vue";
 
 </script>
 
