@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import TodoPage from "./components/TodoPage.vue";
+import Header from "./components/navbar/Header.vue";
+import { RouterView } from 'vue-router';
 
 </script>
 
 <template>
-  <TodoPage />
+  <Header />
+  <RouterView />
 </template>
 
 <style scoped></style>
